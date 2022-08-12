@@ -17,7 +17,7 @@ int main(){
             }
         }
         fprintf(fp, "%s\n", string);
-        if(check == false) { break; }
+        if(!check) { break; }
     }
     fclose(fp);
     return 0;
