@@ -6,7 +6,7 @@ int main(){
     char string[51];
     int i;
     bool check = true;
-    fp = fopen("c:/temp/data.txt", "a"); // ถ้าไม่มีเดี๋ยวมันสร้างให้เอง เพราะโหมด a
+    fp = fopen("data.txt", "a"); // ถ้าไม่มีเดี๋ยวมันสร้างให้เอง เพราะโหมด a
     printf("Input data string : \n");
     while (true){
         scanf("%s", &string);
